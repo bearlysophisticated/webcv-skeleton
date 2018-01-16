@@ -1,0 +1,27 @@
+[
+    {
+        "name": "GitHub",
+        "icon": "fa-github",
+        "action": "#"
+    },
+    {
+        "name": "Twitter",
+        "icon": "fa-twitter",
+        "action": "#"
+    },
+    {
+        "name": "LinkedIn",
+        "icon": "fa-linkedin",
+        "action": "#"
+    },
+    {
+        "name": "Instagram",
+        "icon": "fa-instagram",
+        "action": "#"
+    },
+    {
+        "name": "Email",
+        "icon": "fa-envelope-o",
+        "action": "#"
+    }
+]

@@ -1,0 +1,12 @@
+<footer id="footer">
+    <div class="inner">
+        <ul class="icons">
+            <li *ng-for="#footerElement of footerElements | async">
+                    <a href="{{ footerElement.action }}" class="icon {{ footerElement.icon }}"><span class="label">{{ footerElement.name }}</span></a>
+            </li>
+        </ul>
+        <ul class="copyright">
+            <li>&copy; developer</li></li>
+        </ul>
+    </div>
+</footer>
