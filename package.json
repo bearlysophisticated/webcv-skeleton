@@ -1,6 +1,7 @@
 {
   "name": "webcv-skeleton",
   "version": "1.0.0",
+  "license": "CC-BY-NC-SA-3.0",
   "main": "index.html",
   "directories": {
     "lib": "lib",
@@ -9,7 +10,7 @@
   "scripts": {
     "clean": "rm -rf ./out",
     "build": "node build.js",
-    "run": "http-server ./out -c-1"
+    "launch": "http-server ./out -c-1"
   },
   "repository": {
     "type": "git",
@@ -20,10 +21,9 @@
     "duration": "^0.2.0",
     "glob": "7.1.2",
     "html-minifier": "3.5.8",
-    "jslint": "0.11.0",
-    "jsonminify": "^0.4.1",
+    "jsonminify": "0.4.1",
     "minifier": "0.8.1",
-    "recursive-copy": "^2.0.8",
+    "recursive-copy": "2.0.8",
     "rimraf": "2.6.2",
     "through2": "2.0.3",
     "http-server": "0.11.1"
